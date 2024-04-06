@@ -1,0 +1,30 @@
+.container{
+border-radius: 2rem;
+width:350px;
+height: 510px;
+border: 2px solid red;
+margin: 3rem;
+padding:2rem;
+box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.1);
+background-color: navy;
+color: white;
+font-size: medium;
+;
+
+}
+
+.myImg{
+
+       width: 290px;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        padding-bottom: 2rem;
+        height: 350px;
+
+}
+.grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        
+}
